@@ -76,3 +76,18 @@ def as_float_array(X, copy=True, force_all_finite=True):
     type. The function can create a copy or modify the argument depending
     on the argument copy.
 ```
+
+
+`check_array` at some point creates an np array with `dtype=None` which creates `float64`
+```
+>>> xx = np.array([[0.0, 0.0], [1.0, 1.0]], dtype=None)
+>>> xx.dtype
+dtype('float64')
+```
+logistic regression path
+test logistic
+test_common
+1-newton-cg --> PR
+2-arthur
+
+dtype = dtype
