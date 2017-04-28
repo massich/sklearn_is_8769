@@ -23,3 +23,10 @@ else:
 ```
 
 I should do something similar to [this](https://github.com/scipy/scipy/issues/4873)
+
+```python
+def check_array(array, accept_sparse=False, dtype="numeric", order=None,
+                copy=False, force_all_finite=True, ensure_2d=True,
+                allow_nd=False, ensure_min_samples=1, ensure_min_features=1,
+                warn_on_dtype=False, estimator=None):
+```
