@@ -2,7 +2,7 @@ from sklearn import linear_model
 from sklearn.utils.testing import assert_equal
 from sklearn.linear_model.tests.test_logistic import test_dtype_match, X, Y1, test_multinomial_logistic_regression_string_inputs
 from sklearn.utils.extmath import safe_sparse_dot
-from sklearn.covariance.tests import test_graph_lasso
+from sklearn.covariance.tests.test_graph_lasso import test_graph_lasso
 
 import numpy as np
 
